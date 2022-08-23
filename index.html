@@ -125,10 +125,6 @@
                         <td>' + (feature.properties['commune'] !== null ? autolinker.link(feature.properties['commune'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">prefixe</th>\
-                        <td>' + (feature.properties['prefixe'] !== null ? autolinker.link(feature.properties['prefixe'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">section</th>\
                         <td>' + (feature.properties['section'] !== null ? autolinker.link(feature.properties['section'].toLocaleString()) : '') + '</td>\
                     </tr>\
@@ -169,8 +165,8 @@
                 case 'Foret fermee de coniferes':
                     return {
                 pane: 'pane_CARTE_1',
-                opacity: 1,
-                color: 'rgba(247,247,247,1.0)',
+                opacity: 0.5,
+                color: 'rgba(0,0,0,128)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -184,8 +180,8 @@
                 case 'Foret fermee de feuillus':
                     return {
                 pane: 'pane_CARTE_1',
-                opacity: 1,
-                color: 'rgba(247,247,247,1.0)',
+                opacity: 0.5,
+                color: 'rgba(0,0,0,128)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -199,8 +195,8 @@
                 case 'Foret fermee mixte':
                     return {
                 pane: 'pane_CARTE_1',
-                opacity: 1,
-                color: 'rgba(247,247,247,1.0)',
+                opacity: 0.5,
+                color: 'rgba(0,0,0,128)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -214,8 +210,8 @@
                 case 'Bois':
                     return {
                 pane: 'pane_CARTE_1',
-                opacity: 1,
-                color: 'rgba(247,247,247,1.0)',
+                opacity: 0.5,
+                color: 'rgba(0,0,0,128)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -229,8 +225,8 @@
                 case 'Haie':
                     return {
                 pane: 'pane_CARTE_1',
-                opacity: 1,
-                color: 'rgba(247,247,247,1.0)',
+                opacity: 0.5,
+                color: 'rgba(0,0,0,128)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -244,8 +240,8 @@
                 case 'Zone enherbée':
                     return {
                 pane: 'pane_CARTE_1',
-                opacity: 1,
-                color: 'rgba(247,247,247,1.0)',
+                opacity: 0.5,
+                color: 'rgba(0,0,0,128)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -259,8 +255,8 @@
                 case 'Vigne':
                     return {
                 pane: 'pane_CARTE_1',
-                opacity: 1,
-                color: 'rgba(247,247,247,1.0)',
+                opacity: 0.5,
+                color: 'rgba(0,0,0,128)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -274,8 +270,8 @@
                 case 'Culture annuelle':
                     return {
                 pane: 'pane_CARTE_1',
-                opacity: 1,
-                color: 'rgba(247,247,247,1.0)',
+                opacity: 0.5,
+                color: 'rgba(0,0,0,128)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -289,8 +285,8 @@
                 case 'Indéfini':
                     return {
                 pane: 'pane_CARTE_1',
-                opacity: 1,
-                color: 'rgba(247,247,247,1.0)',
+                opacity: 0.5,
+                color: 'rgba(0,0,0,128)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
